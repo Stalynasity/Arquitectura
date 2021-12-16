@@ -1,15 +1,5 @@
 ## Tarea de aequitectura
 
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  intent="WELCOME"
-  chat-title="Mascarilla"
-  agent-id="8eda2a86-4ef0-460e-a0eb-80e137b95f68"
-  language-code="es"
-></df-messenger>
-
-
-
 <div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
@@ -69,3 +59,12 @@
         }
     }
 </script>
+
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Mascarilla"
+  agent-id="8eda2a86-4ef0-460e-a0eb-80e137b95f68"
+  language-code="es"
+></df-messenger>
